@@ -1,0 +1,29 @@
+.panel img {
+  height: 191.33px;
+  width: 191.33px;
+  margin: 10px auto;
+  display: block;
+}
+
+.panel {
+  min-height: 391.33px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.3)
+}
+
+.panel-heading {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.panel-heading p {
+  margin-bottom: 0;
+}
+
+.panel-body {
+  padding-top: 0;
+}
+
+form {
+  margin-bottom: 20px;
+}

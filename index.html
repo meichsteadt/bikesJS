@@ -4,14 +4,26 @@
     <meta charset="utf-8">
     <title>Hide your kids, hide your bikes.</title>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
   </head>
   <body>
-    <form>
-      <input id="zipcode" type="text">
-      <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Search!</button>
-    </form>
-    <ul id="recentStolen"></ul>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Hide your kids, hide your bikes.</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <form class="form">
+            <div class="col-md-11">
+              <input placeholder="Zipcode" class="form-control" id="zipcode" type="text">
+            </div>
+            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search!</button>
+          </form>
+        </div>
+        <div id="recentStolen"></div>
+      </div>
+    </div>
   </body>
 </html>
